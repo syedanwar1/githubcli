@@ -1,0 +1,33 @@
+.terminal {
+    background: #0d1117;
+    color: #c9d1d9;
+    padding: 16px;
+    font-family: monospace;
+    border-radius: 8px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .output {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input span {
+    margin-right: 8px;
+  }
+  
+  .input input {
+    background: transparent;
+    border: none;
+    color: white;
+    flex: 1;
+    outline: none;
+  }
+  
